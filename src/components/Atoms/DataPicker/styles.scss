@@ -1,0 +1,20 @@
+@import "../../../styles/scss/variables";
+
+.label{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input {
+  font-weight: 500;
+  font-size: 13px;
+  margin: 15px 0px 15px 5px;
+  padding: 10px;
+  border: 1px solid $gray;
+  border-radius: 4px;
+  min-width: 200px;
+
+  @media #{$small} {
+    margin: 15px 19px;
+  }
+}
